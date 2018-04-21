@@ -16,7 +16,7 @@ const Films = ({ films }) => {
         <h2>{title}</h2>
         <p>{opening_crawl}</p>
         <p>
-          <Link href={`/films?id=${id}`}>
+          <Link href={`/films?id=${id}`} as={`/films/${id}`}>
             <a>Learn more...</a>
           </Link>
         </p>
