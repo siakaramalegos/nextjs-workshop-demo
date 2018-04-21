@@ -1,12 +1,13 @@
-
-
-const style = {
-  fontFamily: 'Arial',
-}
+import Jumbotron from "../components/Jumbotron";
+import Meta from "../components/Meta";
 
 const Home = () => (
-  <div style={style}>
-    <h1>My Super Cool Star Wars App</h1>
+  <div>
+    <Meta />
+    <Jumbotron
+      imageSrc="../static/galaxy.jpg"
+      title="My Super Cool Star Wars App"
+    />
   </div>
 )
 
