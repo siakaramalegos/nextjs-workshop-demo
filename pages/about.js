@@ -1,9 +1,11 @@
 import Container from "../components/Container";
 import Meta from "../components/Meta";
+import Nav from "../components/Nav";
 
 const About = () => (
   <div>
     <Meta />
+    <Nav />
     <Container>
       <h1>About</h1>
       <p>Lucas ipsum dolor sit amet wampa dantooine dagobah jade wicket darth mustafar sith ahsoka moff. Wedge aayla hutt moff fett darth. Padmé kenobi moff ben padmé. Darth tatooine baba secura. Skywalker tatooine mara c-3p0 sith. Jawa amidala greedo jango tatooine gonk. Wookiee darth hutt sidious ackbar fisto. Darth leia jinn darth anakin. Bothan mara sebulba jabba fett fett jade ahsoka. Anakin obi-wan dagobah leia moff. Darth jade skywalker thrawn mothma. Sidious palpatine skywalker jade. Binks baba jabba c-3po.</p>
