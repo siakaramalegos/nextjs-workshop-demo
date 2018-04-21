@@ -9,3 +9,4 @@ Each branch represents a step in our workshop.
 - `3-loading-data` - Loading initial data with `getInitialProps`
 - `4-dynamic-routes` - Setting up dynamic routes using query strings
 - `5-route-masking` - Mask films routes for prettier urls
+- `6-custom-server` - Setting up custom server to make pretty urls work on refresh
