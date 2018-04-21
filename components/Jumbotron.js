@@ -14,6 +14,10 @@ const Jumbotron = ({ title, imageSrc, text }) => {
           background-size: cover;
           padding: 100px;
         }
+        h1 {
+          font-size: 3em;
+          font-weight: 100;
+        }
       `}</style>
     </div>
   )
