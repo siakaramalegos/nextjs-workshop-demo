@@ -1,16 +1,13 @@
 import Jumbotron from "../components/Jumbotron";
-import Meta from "../components/Meta";
-import Nav from "../components/Nav";
+import Page from "../layouts/Main";
 
 const Home = () => (
-  <div>
-    <Meta />
-    <Nav />
+  <Page>
     <Jumbotron
       imageSrc="../static/galaxy.jpg"
       title="My Super Cool Star Wars App"
     />
-  </div>
+  </Page>
 )
 
 export default Home
