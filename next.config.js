@@ -1,4 +1,8 @@
+// Check if in production mode
+const isProduction = process.env.NODE_ENV === 'production'
+
 module.exports = {
+  assetPrefix: isProduction ? '/nextjs-workshop-demo' : '',
   exportPathMap: function () {
     // Create a list of film ids [1, 2, 3... ]
     const filmList = Array(7).fill().map((_, i) => i + 1)

@@ -1,10 +1,15 @@
-# Next.js Workshop Demo
+# Universal React Apps Using Next.js
 
-Find the deployed application here: https://next-star-wars-eqfobbjnyg.now.sh/
+Every user’s hardware is different, and processing speed can hinder user experience on client-side rendered React applications. Server-side rendering and code-splitting can drastically improve user experience by minimizing the work that the client has to do. It’s easy to get lost in the lingo, so this workshop and presentation explores what it all means and how to easily build universal or statically exported React apps using the Next.js framework. I walk through the concepts and use code examples to cement your understanding. You’ll get the most out of this if you’re comfortable with React and ES6 syntax.
 
-## Branches
+## Next.js Workshop Demo
 
-Each branch represents a step in our workshop.
+The code in this repo was used in the demo.
+
+- Find the deployed application [here](https://next-star-wars-eqfobbjnyg.now.sh/)
+- Find the statically exported application [here](https://siakaramalegos.github.io/nextjs-workshop-demo)
+
+Each branch represents a step in building the application:
 
 - `1-pages-static` - Creating routes/pages and using static files. Also contains styling and `<head>` examples.
 - `2-navigation` - Using `<Link>` plus a shared layout example.
