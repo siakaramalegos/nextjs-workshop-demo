@@ -2,6 +2,10 @@
 
 Every user’s hardware is different, and processing speed can hinder user experience on client-side rendered React applications. Server-side rendering and code-splitting can drastically improve user experience by minimizing the work that the client has to do. It’s easy to get lost in the lingo, so this workshop and presentation explores what it all means and how to easily build universal or statically exported React apps using the Next.js framework. I walk through the concepts and use code examples to cement your understanding. You’ll get the most out of this if you’re comfortable with React and ES6 syntax.
 
+## Slides
+
+Check them out here: https://siakaramalegos.github.io/nextjs-workshop-slides/
+
 ## Next.js Workshop Demo
 
 ### Deployed application
@@ -30,7 +34,7 @@ These scripts are for the fully implemented demo. Different steps in building th
 - `start` - run the production application from the custom API server.js file,
 - `export` - generate the static export in development mode
 - `dev-static` - serve the contents of the static export folder on localhost:8080
-- `deploy` - generate the gh-pages production static export and deploy it to gh-pages
+- `deploy` - generate the gh-pages production static export and deploy it to gh-pages, including the `.nojekyll` dotfile
 
 ## Resources
 
