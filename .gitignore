@@ -2,3 +2,4 @@
 /.vscode/
 /.next/
 *.DS_Store
+/out/

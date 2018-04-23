@@ -4,12 +4,14 @@ Every user’s hardware is different, and processing speed can hinder user exper
 
 ## Next.js Workshop Demo
 
-The code in this repo was used in the demo.
+### Deployed application
 
 - Find the deployed application [here](https://next-star-wars-eqfobbjnyg.now.sh/)
 - Find the statically exported application [here](https://siakaramalegos.github.io/nextjs-workshop-demo)
 
-Each branch represents a step in building the application:
+### Branches by step
+
+The code in this repo was used in the demo. Each branch represents a step in building the application:
 
 - `1-pages-static` - Creating routes/pages and using static files. Also contains styling and `<head>` examples.
 - `2-navigation` - Using `<Link>` plus a shared layout example.
@@ -18,6 +20,17 @@ Each branch represents a step in building the application:
 - `5-route-masking` - Mask films routes for prettier urls
 - `6-custom-server` - Setting up custom server to make pretty urls work on refresh
 - `7-static-export` - Statically export to pre-rendered HTML pages
+
+### Explanation of Scripts
+
+These scripts are for the fully implemented demo. Different steps in building the app have different scripts.
+
+- `dev` - runs the custom API server.js file in development mode
+- `build` - generate the production application to be deployed to a served environment
+- `start` - run the production application from the custom API server.js file,
+- `export` - generate the static export in development mode
+- `dev-static` - serve the contents of the static export folder on localhost:8080
+- `deploy` - generate the gh-pages production static export and deploy it to gh-pages
 
 ## Resources
 
@@ -28,3 +41,9 @@ Continue your learning with these resources and tutorials:
 - [Official Tutorial](https://learnnextjs.com) by Zeit
 - [New version 5.0 details](https://zeit.co/blog/next5) on the Zeit blog
 - [7 Principles of Rich Web Applications](https://rauchg.com/2014/7-principles-of-rich-web-applications) by Guillermo Rauch, the inspiration for Next.js
+
+## Social Media & Speaking
+
+You can follow me on [Twitter](https://twitter.com/thegreengreek) and [Medium](https://medium.com/@thegreengreek)!
+
+Interested in having me speak at your event? Check out my [speaking history](https://github.com/siakaramalegos/sia_speaks) and/or my [website](https://siakaramalegos.github.io/).
