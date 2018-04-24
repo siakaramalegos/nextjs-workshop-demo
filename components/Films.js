@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Container from './Container';
 
 const getIdFromUrl = (url) => {
@@ -15,11 +14,6 @@ const Films = ({ films }) => {
       <div className="film" key={id}>
         <h2>{title}</h2>
         <p>{opening_crawl}</p>
-        <p>
-          <Link href={`/films?id=${id}`}>
-            <a>Learn more...</a>
-          </Link>
-        </p>
         <style jsx>{`
           .film {
             margin-top: 40px;
