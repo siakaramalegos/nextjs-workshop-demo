@@ -24,6 +24,7 @@ The code in this repo was used in the demo. Each branch represents a step in bui
 - `5-route-masking` - Mask films routes for prettier urls
 - `6-custom-server` - Setting up custom server to make pretty urls work on refresh
 - `7-static-export` - Statically export to pre-rendered HTML pages
+- `8-loading` - Add a loading bar indicator at top of screen hooking into Next.js' Router API
 
 ### Explanation of Scripts
 
