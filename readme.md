@@ -10,7 +10,7 @@ Check them out here: https://siakaramalegos.github.io/nextjs-workshop-slides/
 
 ### Deployed application
 
-- Find the deployed application [here](https://next-star-wars-eqfobbjnyg.now.sh/)
+- Find the deployed application [here](https://next-star-wars-tsedzeozxe.now.sh)
 - Find the statically exported application [here](https://siakaramalegos.github.io/nextjs-workshop-demo)
 
 ### Branches by step
