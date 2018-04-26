@@ -4,7 +4,8 @@ Every user’s hardware is different, and processing speed can hinder user exper
 
 ## Slides
 
-Check them out here: https://siakaramalegos.github.io/nextjs-workshop-slides/
+You can find the talk slides here: https://siakaramalegos.github.io/nextjs-talk-slides/
+Check out the workshop slides here: https://siakaramalegos.github.io/nextjs-workshop-slides/
 
 ## Next.js Workshop Demo
 
