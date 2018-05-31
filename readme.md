@@ -2,6 +2,12 @@
 
 Every user’s hardware is different, and processing speed can hinder user experience on client-side rendered React applications. Server-side rendering and code-splitting can drastically improve user experience by minimizing the work that the client has to do. It’s easy to get lost in the lingo, so this workshop and presentation explores what it all means and how to easily build universal or statically exported React apps using the Next.js framework. I walk through the concepts and use code examples to cement your understanding. You’ll get the most out of this if you’re comfortable with React and ES6 syntax.
 
+## Video
+
+Here is the video of the conference talk: https://www.youtube.com/watch?v=iIBLo-yq_2I
+
+The slides got a little off in video production, so it might be easier to follow along with the slide link below...
+
 ## Slides
 
 - You can find the talk slides here: https://siakaramalegos.github.io/nextjs-talk-slides/
